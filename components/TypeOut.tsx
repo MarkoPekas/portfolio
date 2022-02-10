@@ -18,7 +18,7 @@ const TypeOut = ({ text, delay, onComplete }: {text: string, delay?: number, onC
     }, [text, currentText, delay, onComplete])
 
     return (
-        <span>{currentText}</span>
+        <span className="font-mono">{currentText}</span>
     )
 }
 
