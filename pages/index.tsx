@@ -4,9 +4,9 @@ import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import ShitIKnow from '../components/ShitIKnow'
 import TypeOut from '../components/TypeOut'
-import CmdTick from '../components/cmdTick'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import CmdTick from '../components/CmdTick'
 
 const Home: NextPage = () => {
   let textGradient = 'text-transparent bg-clip-text bg-gradient-to-r from-purple-800 via-red-500 to-orange-500'
