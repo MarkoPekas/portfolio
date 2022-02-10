@@ -40,7 +40,7 @@ const Home: NextPage = () => {
         <div className='flex-1 flex flex-col'>
           <div className='flex flex-col justify-center items-center flex-1'>
             <h1 className='text-5xl xl:text-8xl font-bold text-white text-center'>The developer<br/>for <span className={textGradient}>{switcharoo[blade]}</span></h1>
-            <p className='text-gray-400 text-xl xl:text-3xl p-5'>It's my portfolio (cool ain't it)</p>
+            <p className='text-gray-400 text-xl xl:text-3xl p-5'>It{`'`}s my portfolio (cool ain{`'`}t it)</p>
             <div className='p-3 flex h-20'>
               <motion.a href="https://www.upwork.com/freelancers/~0170cd846d7c329007" whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none bg-gradient-to-r from-pink-400 to-red-600  text-white font-semibold px-5 text-xl">UpWork</motion.a>
               <Link href="/contacts"><motion.a whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none border border-white  text-white font-semibold px-5 text-xl">Contact Me</motion.a></Link>
@@ -228,7 +228,7 @@ const Home: NextPage = () => {
       </div>
       <div className='h-screen bg-white flex justify-center items-center p-10'>
           <div className='xl:w-1/2 h-1/2 w-full rounded-md text-white shadow-2xl flex flex-col justify-center p-3 items-center bg-gradient-to-br from-purple-800 via-red-500 to-orange-500'>
-            <p className='text-gray-300 font-mono xl:text-xl text-center'>// A decision you wont regret</p>
+            <p className='text-gray-300 font-mono xl:text-xl text-center'>{`//`} A decision you wont regret</p>
             <p className='py-4 xl:text-5xl text-2xl font-semibold'>Hire Me</p>
             <div className='p-3 flex flex-col xl:flex-row xl:h-24 h-44'>
               <motion.a href="https://www.upwork.com/freelancers/~0170cd846d7c329007" whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none bg-white text-gray-900 font-semibold px-5 text-xl">UpWork</motion.a>
