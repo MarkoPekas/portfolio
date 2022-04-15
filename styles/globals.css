@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
     font-family: 'Open Sans';
     letter-spacing: 1px;
-}
+} */
 
 html {
     scroll-behavior: smooth;
