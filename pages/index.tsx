@@ -42,7 +42,7 @@ const Home: NextPage = () => {
             <h1 className='text-5xl xl:text-8xl font-bold text-white text-center'>The developer<br/>for <span className={textGradient}>{switcharoo[blade]}</span></h1>
             <p className='text-gray-400 text-xl xl:text-3xl p-5'>It{`'`}s my portfolio (cool ain{`'`}t it)</p>
             <div className='p-3 flex h-20'>
-              <motion.a href="https://www.upwork.com/freelancers/~0170cd846d7c329007" whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none bg-gradient-to-r from-pink-400 to-red-600  text-white font-semibold px-5 text-xl">UpWork</motion.a>
+              <motion.a href="https://www.toptal.com/resume/marko-pekas" whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none bg-gradient-to-r from-pink-400 to-red-600  text-white font-semibold px-5 text-xl">Toptal</motion.a>
               <Link href="/contacts"><motion.a whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none border border-white  text-white font-semibold px-5 text-xl">Contact Me</motion.a></Link>
             </div>
           </div>
@@ -199,7 +199,7 @@ const Home: NextPage = () => {
             <p className='text-5xl text-white font-semibold text-center'>Damn <span className={textGradient}>Good Code</span></p>
             <p className='py-4 text-xl text-gray-400 text-center'>Created with years of LeetCode practice</p>
             <div className='my-5 rounded-md border-blue-500 text-blue-500 border items-center font-semibold text-xl px-5 py-3 flex cursor-pointer'>
-              <a href="https://www.upwork.com/freelancers/~0170cd846d7c329007" className='pr-2'>Seen Enough</a>
+              <a href="https://www.toptal.com/resume/marko-pekas" className='pr-2'>Seen Enough</a>
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <polyline points="9 6 15 12 9 18" />
@@ -218,7 +218,7 @@ const Home: NextPage = () => {
             <p className='xl:text-xl text-green-500 font-mono pt-2'>I code lots, true story</p>
             <p className='xl:text-4xl text-2xl text-white font-semibold py-4'>5 Years Experience</p>
             <p className='xl:text-xl text-gray-400'>I have 5 YoE in React and Web App development, real Full Stack experience and a drive to constantly learn more. With broad experiences from startups to established tech companies.</p>
-            <a className='text-sexy py-2' href="https://www.upwork.com/freelancers/~0170cd846d7c329007">Find Me On Upwork</a>
+            <a className='text-sexy py-2' href="https://www.toptal.com/resume/marko-pekas">Find Me On Toptal</a>
           </motion.div>
           <motion.div initial={{opacity: 0, x: 20}} whileInView={{opacity: 1, x: 0}} transition={{delay: 0.3, ease: 'easeOut'}} className='flex-1 flex flex-col justify-center xl:p-32 p-10 bg-contain bg-no-repeat' style={{backgroundImage: `url(/bg-1.png)`}}>
             <motion.div initial={{opacity: 0, x: 40}} whileInView={{opacity: 1, x: 0}} transition={{delay: 0.3}} className='rounded-md shadow-2xl w-full h-full bg-gradient-to-tr from-gray-900 to-black bg-center bg-cover' style={{backgroundImage: `url(/portfolio6.jpg)`}}>
@@ -231,7 +231,7 @@ const Home: NextPage = () => {
             <p className='text-gray-300 font-mono xl:text-xl text-center'>{`//`} A decision you wont regret</p>
             <p className='py-4 xl:text-5xl text-2xl font-semibold'>Hire Me</p>
             <div className='p-3 flex flex-col xl:flex-row xl:h-24 h-44'>
-              <motion.a href="https://www.upwork.com/freelancers/~0170cd846d7c329007" whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none bg-white text-gray-900 font-semibold px-5 text-xl">UpWork</motion.a>
+              <motion.a href="https://www.toptal.com/resume/marko-pekas" whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none bg-white text-gray-900 font-semibold px-5 text-xl">Toptal</motion.a>
               <Link href="/contacts"><motion.a whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="cursor-pointer h-full mx-2 flex items-center justify-center rounded-md select-none border border-white  text-white font-semibold px-5 text-xl">Contact Me</motion.a></Link>
             </div>
           </div>
